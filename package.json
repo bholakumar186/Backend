@@ -1,0 +1,37 @@
+{
+  "name": "transengine",
+  "version": "1.0.0",
+  "description": "Backend code  of transgulf",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globaltransgulf-cmd/transEngine.git"
+  },
+  "author": "Pandey Sandeepak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/globaltransgulf-cmd/transEngine/issues"
+  },
+  "homepage": "https://github.com/globaltransgulf-cmd/transEngine#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.930.0",
+    "@aws-sdk/s3-request-presigner": "^3.930.0",
+    "@cashfreepayments/cashfree-js": "^1.0.5",
+    "cashfree-pg": "^5.1.0",
+    "cashfree-sdk": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0",
+    "mime": "^4.1.0",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3",
+    "razorpay": "^2.9.6"
+  }
+}
