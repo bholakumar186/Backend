@@ -7,7 +7,7 @@ const createPoolConfig = () => {
   if (process.env.DATABASE_URL) {
     return {
       connectionString: process.env.DATABASE_URL,
-      ssl: { rejectUnauthorized: false },
+      ssl: { rejectUnauthorized: true },
     };
   }
 
