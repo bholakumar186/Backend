@@ -2,7 +2,7 @@ import pkg from 'pg';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const { Pool } = pkg;.
+const { Pool } = pkg;
 const createPoolConfig = () => {
   if (process.env.DATABASE_URL) {
     return {
